@@ -46,6 +46,7 @@ Vue.component('cronograma-admin', require('./components/cronograma/admin/Cronogr
 Vue.component('painel-adiciona-banner', require('./components/painel/PainelAdicionaBanner.vue'));
 Vue.component('painel-adicionar-user', require('./components/painel/PainelAdicionarUser.vue'));
 Vue.component('painel-adicionar-evento', require('./components/painel/PainelAdicionarEvento.vue'));
+Vue.component('painel-destaque', require('./components/painel/PainelDestaque.vue'));
 
 /*fim area painel */
 
@@ -55,6 +56,8 @@ Vue.component('formulario-banner', require('./components/FormularioBanner.vue'))
 
 Vue.component('menu-vertical', require('./components/MenuVertical.vue'));
 Vue.component('tabela-banner', require('./components/TabelaBanner.vue'));
+Vue.component('formulario-destaque', require('./components/FormularioDestaque.vue'));
+
 
 /* importando as tabs */ 
     import {Tabs, Tab} from 'vue-tabs-component';

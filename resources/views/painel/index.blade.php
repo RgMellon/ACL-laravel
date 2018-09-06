@@ -20,7 +20,7 @@
                 </tab>
 
                 <tab name="Destaque">
-                    
+                    <painel-destaque></painel-destaque>
                 </tab>
             </tabs>
         </div>
