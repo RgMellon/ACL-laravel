@@ -1,0 +1,156 @@
+img {
+    width: 100%;
+    max-width: 100%;
+}
+
+input {
+    border-top-left-radius: 7px;
+    padding: 0.5rem;
+}
+
+.form-wrapper {
+    margin-top:23px;
+}
+
+.header-login {
+    height: 80px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.page-login {
+    height: 100vh;
+    background: url('/img/fundo.jpg') no-repeat center; 
+    background-size: cover;
+}
+
+.titulo-login {
+    padding-top: 1rem;
+    font-size: 1.2rem;
+    color: #b9242a;
+    font-weight: bold;
+}
+
+.label-login {
+    margin-bottom:0.5rem;
+    display: flex;
+}
+
+.btn-login {
+
+    margin-top: 2rem;
+    background-image: linear-gradient(158deg, #d7a5a5, #80191d);
+    color: white;
+    border: 0px;
+    width: 81px;
+    height: 33px;
+    border-top-left-radius: 7px;
+    outline: none;
+    cursor: pointer;
+    font-weight: bolder;
+    
+}
+
+.login-mkt {
+    margin-top: 4rem;
+}
+
+.login-mkt button {
+    border: 0px;
+    width: 200px;
+    height: 30px;
+    background-image: linear-gradient(158deg, #565656, #181515);
+    color: white;
+    border-top-left-radius: 7px;
+    font-weight: bold;
+}
+
+/* css Home */
+
+.heade-home {
+    width: 100%;
+    background: #b9242a;
+    height: 60px;
+    align-items: center;
+}
+
+.header-home-logo {
+    width: 150px;
+}
+
+.shape {
+    width: 2px;
+    height: 36px;
+    background: #dcd6d6;
+    margin-left: 10px;
+    margin-top: -3px;
+}
+
+.era {
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    margin-left: 7px;
+}
+
+.link {
+    color: white;
+    font-weight: 500;
+}
+
+
+::-webkit-input-placeholder {
+    color: #b9242a;
+    font-weight: bold;
+ }
+ 
+ :-moz-placeholder {
+    color: #b9242a;  
+    font-weight: bold;
+ }
+ 
+ ::-moz-placeholder { 
+    color: #b9242a; 
+    font-weight: bold; 
+ }
+ 
+ :-ms-input-placeholder {  
+    color: #b9242a;  
+    font-weight: bold;
+ }
+
+
+/* fim css home */ 
+
+/* css calendario */
+.fc-day-header  {
+    background: #b9242a;
+    color: white;
+    border: 0px;
+}
+
+.fc .fc-button-group > :first-child {
+    background: #b9242a;
+    color: white;
+}
+
+.fc-toolbar.fc-header-toolbar {
+    padding: 1rem;
+}
+
+body .fc {
+    border: 1px solid #b9242a;
+    border-top-left-radius: 7px;
+}
+
+.fc .fc-button-group > * {
+    background: white;
+    color: #b9242a;
+    outline: none;
+}
+
+.fc-unthemed th, .fc-unthemed td, .fc-unthemed thead {
+    border-color: #b9242a;
+}
+/* fim css calendario */
