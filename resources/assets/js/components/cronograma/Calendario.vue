@@ -10,6 +10,7 @@
     import 'fullcalendar/dist/locale/pt-br';
 
     export default {
+        
         components: {
             FullCalendar,
         },
@@ -18,6 +19,7 @@
             axios.get('tarefas/usuario')
                 .then(res => this.events = res.data)  
         },
+
         data() {
             return {
                 events: [

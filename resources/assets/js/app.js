@@ -16,7 +16,13 @@ window.Vue = require('vue');
  */
 
 Vue.component('faixa-escola', require('./components/Faixa.vue'));
-Vue.component('carrosel-home', require('./components/Carrosel.vue'));
+
+/* Area carrosel */ 
+Vue.component('carrosel', require('./components/carrossel/Carrossel.vue'));
+Vue.component('carrosel-page', require('./components/carrossel/CarrosselPage'));
+/* Fim area carrosel */
+
+
 Vue.component('destaques-home', require('./components/Destaques.vue'));
 Vue.component('colapse', require('./components/Colapse.vue'));
 
@@ -45,9 +51,19 @@ Vue.component('painel-adicionar-evento', require('./components/painel/PainelAdic
 
 
 
+Vue.component('formulario-banner', require('./components/FormularioBanner.vue'));
 
-import VueCollapse from 'vue2-collapse'
-Vue.use(VueCollapse)
+Vue.component('menu-vertical', require('./components/MenuVertical.vue'));
+Vue.component('tabela-banner', require('./components/TabelaBanner.vue'));
+
+/* importando as tabs */ 
+    import {Tabs, Tab} from 'vue-tabs-component';
+    Vue.component('tabs', Tabs);
+    Vue.component('tab', Tab);
+/* fim do import as tabs */
+
+
+
 
 import vmodal from 'vue-js-modal'
 Vue.use(vmodal)
@@ -62,6 +78,7 @@ Vue.use(VueCarousel);
 import 'vue-awesome/icons/flag';
 import 'vue-awesome/icons';
 import Icon from 'vue-awesome/components/Icon';
+
 Vue.component('v-icon', Icon)
 
 

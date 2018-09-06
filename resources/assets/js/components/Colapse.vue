@@ -9,9 +9,8 @@
                     <div class="">
                         <h1> {{ titulo }} </h1>
                     </div>
-                    <div class="">
-                        <v-icon v-if="!this.show" name="sort-down" scale="1"></v-icon>
-                        <v-icon v-if="this.show" name="sort-up" scale="1"></v-icon>
+                     <div class="">
+                        
                     </div>
                 </div>
             </div>
@@ -54,8 +53,8 @@
 
     .container-colapse {
         width: 100%;
-        height: 500px;
-        background: red;
+        border-left: 2px solid #b9242a;
+        padding: 1rem;
     }
 
     h1 {

@@ -3,11 +3,6 @@
         
         <notifications group="foo" width="100%"/>
         
-        <div v-if="!admin" class="btn-adicionar-evento">
-            <adicionar-cronograma></adicionar-cronograma>
-            <button @click="show"> adicionar evento </button>
-        </div>
-        
         <div class="gerar-pdf">
             <button @click="teste"> gerar PDF </button>
         </div>

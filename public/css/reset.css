@@ -53,3 +53,9 @@ a {
 .pesquisa-home  input{
 	outline: none;
 }
+
+
+
+html,body{
+	margin:0;
+}

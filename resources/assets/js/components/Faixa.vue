@@ -8,16 +8,14 @@
                 
             </div>
             <div class="col d-flex">
-
+                    
             </div>
         </div>
     </section>
 </template>
 
 <script>
-    export default {
-            
-    }
+
 </script>
 
 <style scoped>

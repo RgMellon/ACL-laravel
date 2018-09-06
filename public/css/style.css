@@ -1,3 +1,4 @@
+
 img {
     width: 100%;
     max-width: 100%;
@@ -154,3 +155,51 @@ body .fc {
     border-color: #b9242a;
 }
 /* fim css calendario */
+
+/* 
+.tabs-component-tabs {
+    display: flex;
+    width: 100%;
+    
+    justify-content: space-around;
+    height: 37px;
+    margin-top: 5px;
+    align-items: center;
+}
+
+.tabs-component {
+    width: 100%;
+} */
+.tabs-component {
+    display: flex;
+}
+
+.tabs-component-tabs {
+    background: white;
+    height: 100vh;
+    width: 15%;
+    background: #b9242a;
+}
+
+.tabs-component-panels {
+    width: 100%;
+}
+
+.tabs-component-tab {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.tabs-component-tab-a {
+    color: white;
+}
+
+
+.wrapper {
+    margin-top: 4rem;
+    box-shadow: 5px 9px 12px -8px rgba(0,0,0,0.15);
+    background: white;
+}

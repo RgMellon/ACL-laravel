@@ -1,27 +1,23 @@
 <template>
     <div class="painel-adiciona-banner">
-        <colapse titulo="Adicionar / Editar Banners" icon="images" >
-                <div slot="content-colapse">
-                        
-                </div>
-        </colapse>
+        <div class="container wrapper">
+            <formulario-banner></formulario-banner>
+        </div>
+        <div class="container wrapper">
+             <tabela-banner></tabela-banner>
+        </div>
     </div>
 </template>
 
 <script>
    
     export default {
-         
+        
     }
+
 </script>
 
 <style scoped>
-    
-    .painel-adiciona-banner {
-       margin-top:4rem;
-    }
+        
 
-    .painel-adiciona-banner h1 {
-        font-size: 20px;
-    }
 </style>

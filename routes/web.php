@@ -23,3 +23,8 @@ Route::get('/tarefas/usuario', 'TarefaController@getTarefasByUser')->name('taref
 
 
 Route::get('/painel', 'PainelController@index')->name('painel.index');
+
+
+Route::post('/banner/store', 'BannerController@store')->name('add.banner');
+Route::get('/banners', 'BannerController@getBanners')->name('get.banners');
+Route::delete('/banner', 'BannerController@excluir')->name('delete.banners');

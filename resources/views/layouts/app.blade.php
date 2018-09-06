@@ -18,9 +18,8 @@
     <link rel="stylesheet" href="{{ asset('css/app.css')}}">
     <link rel="stylesheet" href="{{ asset('css/style.css')}}">
     
-
-    
 </head>
+
 <header class="heade-home d-flex">
     
     <div class="container">
@@ -59,7 +58,7 @@
 
 <body>
     <div id="app">
-        <main class="container">
+        <main>
             @yield('content')
         </main>
     </div>

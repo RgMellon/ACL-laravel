@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-12">
                 <calendario></calendario>
-                 <footer-cronograma :admin="true"> </footer-cronograma>
+                <footer-cronograma :admin="true"> </footer-cronograma>
             </div>
         </div>
     </div>

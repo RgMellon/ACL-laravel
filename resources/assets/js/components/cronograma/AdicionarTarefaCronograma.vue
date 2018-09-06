@@ -1,5 +1,4 @@
 <template>
-    <modal name="adicionar-evento" height="400px">
         <form v-on:submit.prevent>
             
             <div class="form-group">
@@ -20,7 +19,6 @@
             <button @click="adicionaDados()" class="btn btn-primary">TESTE</button>
             
         </form>
-    </modal>
 </template>
 <script>
     export default {
@@ -29,7 +27,7 @@
                 tarefa: {
                     title: '',
                     descricao: '',
-                    data_evento: '',
+                    start: '',
                 }
             }
         },
@@ -44,8 +42,10 @@
                             text:  `${res.data.title} foi agendada para o dia ${res.data.start}` ,
                             type: 'success',
                         })
-                    }).then(close => {
-                        this.$modal.hide('adicionar-evento');
+                    }).then(clear => {
+                        this.tarefa.title = '',
+                        this.tarefa.descricao = '',
+                        this.tarefa.start = ''
                     })
             }
         }
